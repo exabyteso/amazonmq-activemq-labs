@@ -2,5 +2,6 @@
 
 * Modify the queue name in lines 57 and 92 to your @handle.
 
-2. Execute `./gradlew build` to build and package the changes.
-3. Execute `./gradlew run` to execute the build jar.
+2. In a terminal, browse to `cd amazon-mq-activemq-labs/Java/Openwire/Lab1/`
+3. Execute `./gradlew build` to build and package the changes.
+4. Execute `./gradlew run` to execute the build jar.
