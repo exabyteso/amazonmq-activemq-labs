@@ -1,5 +1,6 @@
-1. Modify the queue name in lines 57 and 92 to your @handle.
+1. Browse to the AmazonMQExample.java file in Cloud9 console on the left (/amazonmq-activemq-labs/Java/Openwire/Lab1/src/main/java/amazonmqexample/AmazonMQExample.java). Open the file and make the below changes: 
 
-2. Execute `./gradlew build` to build and package the changes.
+* Modify the queue name in lines 57 and 92 to your @handle.
 
-3. Execute `./gradlew run` to execute the build jar.
+2. Execute `./gradlew build` to build and package the changes.
+3. Execute `./gradlew run` to execute the build jar.
