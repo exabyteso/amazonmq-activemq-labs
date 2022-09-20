@@ -1,4 +1,4 @@
-1. Browse to `cd ~/environment/amazonmq-activemq-labs/Javascript`
+1. Browse to `cd ~/environment/amazon-mq-activemq-labs/Javascript/`
 
 2. Execute `npm install @stomp/stompjs ws`.
 
