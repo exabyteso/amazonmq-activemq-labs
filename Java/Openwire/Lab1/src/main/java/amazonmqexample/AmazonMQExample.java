@@ -25,7 +25,7 @@ public class AmazonMQExample {
 
         // Specify the connection parameters.
         private final static String WIRE_LEVEL_ENDPOINT 
-            = "ssl://b-950b312e-e1b3-4f71-8a30-52dc95ebaa89-1.mq.eu-west-1.amazonaws.com:61617";
+            = "ssl://b-c27c63a1-334d-475d-8e86-85c15f4ec102-1.mq.eu-west-1.amazonaws.com:61617";
         private final static String ACTIVE_MQ_USERNAME = "workShopUser";
         private final static String ACTIVE_MQ_PASSWORD = "workShopUser";
         

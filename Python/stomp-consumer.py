@@ -31,7 +31,7 @@ def connect_and_subscribe(conn):
 
 
 read_messages = []
-hosts = [('b-950b312e-e1b3-4f71-8a30-52dc95ebaa89-1.mq.eu-west-1.amazonaws.com', '61614')]
+hosts = [('b-c27c63a1-334d-475d-8e86-85c15f4ec102-1.mq.eu-west-1.amazonaws.com', '61614')]
 
 conn = stomp.Connection(host_and_ports=hosts)
 conn.set_listener('my_listener', MyListener(conn))

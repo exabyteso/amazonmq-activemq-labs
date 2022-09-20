@@ -1,8 +1,8 @@
 StompJs = require('@stomp/stompjs');
 WebSocket = require('ws');
 
-const brokerConnectionString1 = "wss://b-bbc27a1c-32ea-4be5-8083-b10c2e37cc65-1.mq.eu-west-2.amazonaws.com:61619"; //Enter broker connection string
-const brokerConnectionString2 = "wss://b-bbc27a1c-32ea-4be5-8083-b10c2e37cc65-2.mq.eu-west-2.amazonaws.com:61619"; //Enter broker connection string
+const brokerConnectionString1 = "wss://b-c27c63a1-334d-475d-8e86-85c15f4ec102-1.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
+const brokerConnectionString2 = "wss://b-c27c63a1-334d-475d-8e86-85c15f4ec102-2.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
 
 const sleep = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 

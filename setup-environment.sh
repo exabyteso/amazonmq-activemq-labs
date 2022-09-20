@@ -44,31 +44,3 @@ sdk install gradle 7.5.1
 
 # Update npm globally
 npm install -g npm@8.19.2
-
-
-
-
-
-
-
-
-# Gradle setup
-# # Used https://linuxize.com/post/how-to-install-gradle-on-ubuntu-18-04/ as a guide
-# # Download gradle
-# wget https://services.gradle.org/distributions/gradle-7.5.1-bin.zip -P /tmp
-
-# #Unzip the downloaded file
-# sudo unzip -d /opt/gradle /tmp/gradle-*.zip
-
-# # Create file /etc/profile.d/gradle.sh 
-# sudo touch /etc/profile.d/gradle.sh 
-
-# # https://askubuntu.com/questions/103643/cannot-echo-hello-x-txt-even-with-sudo
-# sudo bash -c 'echo "export GRADLE_HOME=/opt/gradle/gradle-7.5.1/
-# export PATH=${GRADLE_HOME}/bin:${PATH}" > /etc/profile.d/gradle.sh'
-
-# # Make the script executable by issuing the following chmod command:
-# sudo chmod +x /etc/profile.d/gradle.sh
-
-# # Load the environment variables using the source command
-# source /etc/profile.d/gradle.sh
