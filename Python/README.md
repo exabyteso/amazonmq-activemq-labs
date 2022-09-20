@@ -8,8 +8,8 @@
 
 5. Browse to the stomp-producer.py and stomp-consumer.py files in Cloud9 console on the left. Open both files and make the below changes: 
 
- *a. Prepend your @handle after the destination section in lines 33 and 34 of stomp-producer.py e.g. /queue/@myhandle-non-persistent 
- *b. Prepend your @handle after the destination section in line 27 of stomp-consumer.py e.g. /queue/@myhandle-non-persistent.
+ * a. Prepend your @handle after the destination section in lines 33 and 34 of stomp-producer.py e.g. /queue/@myhandle-non-persistent.
+ * b. Prepend your @handle after the destination section in line 27 of stomp-consumer.py e.g. /queue/@myhandle-non-persistent.
 
 6. Execute the stomp-producer.py in one terminal i.e. `python stomp-producer.py`.
 
