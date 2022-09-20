@@ -1,0 +1,15 @@
+{
+  "name": "stompjslab",
+  "version": "1.0.0",
+  "description": "@stomp/stompjs demo",
+  "main": "producer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stomp/stompjs": "^6.1.2",
+    "ws": "^8.8.1"
+  }
+}

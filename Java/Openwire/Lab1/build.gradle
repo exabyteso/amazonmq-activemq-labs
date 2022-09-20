@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'amazonmqexample.AmazonMQExample'
+
+// tag::repositories[]
+repositories { 
+    mavenCentral() 
+}
+// end::repositories[]
+
+// tag::jar[]
+jar {
+    archiveBaseName = 'amazonmqexample'
+    archiveVersion =  '0.1.0'
+}
+// end::jar[]
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation "org.apache.activemq:activemq-client:5.15.8"
+    implementation "org.apache.activemq:activemq-pool:5.15.8"
+}
+// end::dependencies[]
+
+// tag::wrapper[]
+// end::wrapper[]
