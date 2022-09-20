@@ -1,8 +1,8 @@
 StompJs = require('@stomp/stompjs');
 WebSocket = require('ws');
 
-const brokerConnectionString1 = "wss://b-c27c63a1-334d-475d-8e86-85c15f4ec102-1.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
-const brokerConnectionString2 = "wss://b-c27c63a1-334d-475d-8e86-85c15f4ec102-2.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
+const brokerConnectionString1 = "wss://b-25a407d6-0c2d-45e8-993e-2777628f8a0a-1.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
+const brokerConnectionString2 = "wss://b-25a407d6-0c2d-45e8-993e-2777628f8a0a-1.mq.eu-west-1.amazonaws.com:61619"; //Enter broker connection string
 
 const sleep = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
 
@@ -41,9 +41,9 @@ const stompConfig = {
     onConnect: function (frame) {
       console.log(`Connected to: ${stompClient.brokerURL}`);
       // stompClient.publish({destination: '/topic/chat', body: "Hello there"});
-      const subscription = stompClient.subscribe('`/queue/@myhandle-non-persistent`', async (message) => {
+      const subscription = stompClient.subscribe('/queue/@myhandlehere-non-persistent', async (message) => {
           await sleep(500);
-          console.log(message.body);
+          console.log(message);
       });
     },
 
