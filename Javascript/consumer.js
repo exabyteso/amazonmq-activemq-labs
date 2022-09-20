@@ -41,7 +41,7 @@ const stompConfig = {
     onConnect: function (frame) {
       console.log(`Connected to: ${stompClient.brokerURL}`);
       // stompClient.publish({destination: '/topic/chat', body: "Hello there"});
-      const subscription = stompClient.subscribe('/queue/persistent', async (message) {
+      const subscription = stompClient.subscribe('`/queue/@myhandle-non-persistent`', async (message) => {
           await sleep(500);
           console.log(message.body);
       });

@@ -39,8 +39,11 @@ curl -s "https://get.sdkman.io" | bash
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+# Install gradle version 7.5.1
 sdk install gradle 7.5.1
 
+# Update npm globally
+npm install -g npm@8.19.2
 
 
 

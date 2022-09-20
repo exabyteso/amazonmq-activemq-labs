@@ -51,7 +51,7 @@ stompClient.activate();
 stompClient.onConnect = async() =>{
   let i = 1;
   while(true){
-    let destination = "/queue/persistent";
+    let destination = "/queue/@myhandlehere-non-persistent";
     stompClient.publish({ destination: destination, body: `Hello world ${i}` }); 
     
     // Send persistent messages
